@@ -1,2 +1,3 @@
 # flat-hosting-landing-page
-created with pure css + html with some js codes included for icons.
+Created with pure CSS + HTML with some JS codes included for icons.<br>
+Preview : https://salahkai.github.io/flat-hosting-landing-page
