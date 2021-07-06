@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 2em;
+    height: 1em;
+    vertical-align: -0.05em;
+  }
+  h1 {
+    color:#000070;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  .h2main{
+    color:#000070;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+body{
+    padding-top: 10%;
+    margin: 0;
+    background-color: rgb(225, 226, 225);
+
+}
+#header{
+    z-index: 1;
+    box-shadow: -5px 5px 10px grey;
+    top: 0;
+    text-align: right;
+    border-color: rgb(0, 0, 0);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 112, 1)
+}
+.nav-link {
+    color:rgba(255, 255, 255, 1);
+    background-color: #000070;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:none;
+    text-align: center;
+    font-size: 18px;
+    margin:10px;
+    position:relative;
+    top: 25%;
+    left: 0%;
+
+}
+#nav-bar{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    left: 0%;
+}
+@media only screen and (max-width:550px){
+    #nav-bar{ 
+ display: none;
+    }
+}
+#header-img{
+    float: left;
+    width:auto;
+    height: 100%;
+}
+#Why-us{
+    position: relative;
+    min-width: 490px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+
+
+}
+
+.div1-features{
+    opacity: 90%;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    justify-content:center;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.div1-features div{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin:1%;  
+    padding: 1%;;
+    box-shadow: -2px 2px 8px grey;
+    width: 400px;
+}
+
+.icons {
+    margin-top: 7%;
+    color: rgba(0, 0, 112, 1);
+    font-size: 60px;
+
+  }
+.main-titles{
+    font-size: 1.5em;
+    
+}
+.main-titles2{
+    font-size: 1.3em;
+}
+#Prices{
+    position: relative;
+    min-width: 290px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+
+
+}
+
+.div1-prices{
+
+    opacity: 90%;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    justify-content:center;
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+
+.prices-main-div{
+    
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin:0.7%;  
+    padding: 1%;;
+    box-shadow: -2px 2px 8px grey;
+    width: 300px;
+}
+#p1{
+    border-width: 1%;
+    border-style: solid;
+    border-color:#2d089c;
+
+}
+#p2{
+
+    border-width: 1%;
+    border-style: solid;
+    border-color:#187c29;
+}
+#p3{
+    border-width: 1%;
+    border-style: solid;
+    border-color:#2d089c;
+}
+#popular{
+    margin-top: 1%;
+    font-size: 0.8em;
+}
+.price-dollar{
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 3em;
+    margin-bottom: 2.5%;
+}
+.old-price{
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 0.4em;
+}
+@media only screen and (min-width:490px){
+    #p2{ 
+        position: relative;
+ top:-15px;
+
+    }
+}
+.get-started-bbt{
+    font-size: 1.5em;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    padding: 4%;
+    padding-left: 15%;
+    padding-right:15%;
+
+    background-color: #000070;
+    border: 10px solid white
+}
+.divider{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top: 2px solid #000070;
+    border-bottom:0 ;
+}
+.divider-green{
+    border-top: 2px solid #187c29;
+
+}
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+  }
+  li {
+    padding-left: 1.5em;
+  }
+  li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.5em;
+    width:1.5em;
+    color:green;
+  }
+
+  #Vouches{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+
+}
+#div1-vouches{
+    opacity: 90%;
+    color:rgb(146, 110, 110);
+    font-family: 'Poppins', sans-serif;
+    justify-content:center;
+    display: flex; 
+    flex-wrap: wrap;
+}
+#div1-vouches div{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin:1%;  
+    padding: 1%;;
+    width:200px;
+}
+.voucher-img1{
+    width: 75%;
+    height: auto;
+}
+.voucher-img2{
+    width: 100%;
+    height: auto;
+}
+#email{
+    color: black;
+padding:2%;
+width:80%
+}
+#sign-up{
+    padding:5%;
+    color: black;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    width:30vw;
+    margin:auto;
+
+
+}
+#email-label{
+    font-size: 1.6rem;
+}
+.submitemail{
+    width: 26vw;
+    margin: 3%;
+    padding: 3%;
+}
+.love {
+    margin-top: 7%;
+    color: rgba(0, 0, 112, 1);
+    font-size: 15px;
+
+  }
+.about{
+position: relative;
+}
+#full-width{
+width: 100%;
+position: relative;
+
+}
+#about{
+    color: black;
+
+}
+
+#about a{
+    color: #000070;
+
+}
